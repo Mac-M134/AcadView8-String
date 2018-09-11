@@ -2,6 +2,7 @@ import java.util.Scanner;
 class RevString{
     public static void main(String args[]){
         Scanner a=new Scanner(System.in);
+        System.out.print("Enter String: ");
         String s=a.nextLine();
         String s1=reverse(s);
         System.out.print(s1);
@@ -10,8 +11,8 @@ class RevString{
 	{
 
 		if (s1 == null || s1.equals(""))
-			return str;
+			return s1;
         
-		return reverse(str.substring(1)) + str.charAt(0);
+		return reverse(s1.substring(1)) + s1.charAt(0);
 	}
 }

@@ -4,7 +4,7 @@ class SubStr{
       String string, sub;
       int i, c, length; 
       Scanner in = new Scanner(System.in);
-      System.out.println("Enter a string:");
+      System.out.print("Enter a string:");
       string  = in.nextLine(); 
       length = string.length(); 
       System.out.println("Substrings are:"); 
